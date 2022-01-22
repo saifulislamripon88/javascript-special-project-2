@@ -1,0 +1,67 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+/* body{
+    background-color: aqua;
+} */
+
+
+
+.cookie-container{
+    background: linear-gradient(260deg,  #9b6c50 0%, #4f2626 100%);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    color:white;
+    display: flex;
+    width: 560px;
+    border-radius: 5px;
+    text-align: center;
+    padding: 12px;
+    font-family: 'Poppins', sans-serif;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    overflow: hidden;
+   
+}
+
+
+.imagess img{
+    width: 80%;
+    height: 80%;
+    text-align: center;
+    margin-top: 17px;
+    
+
+}
+
+/* .text{
+    width: 97%;
+} */
+
+.cookie-title{
+    font-size: 25px;
+    /* font-weight: lighter; */
+}
+
+.cookie-subtitle{
+    font-size: 14px;
+}
+
+button{
+    padding: 5px 10px;
+    /* background: rgb(2, 95, 86); */
+    border-radius: 6px;
+    background: linear-gradient(260deg,  #5f2807 50%, #490000 90%);
+    border:1px solid transparent;
+    font-size: 15px;
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+
+}
+
